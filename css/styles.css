@@ -132,10 +132,10 @@ h2 a {
 		margin-left: -100px;
 	}
 }
-@media (max-width: 1020px)
+@media (max-width: 1024px)
 {
 	p {
-		margin-left: -50px;
+		margin-left: -81px;
 	}
 }
 
@@ -145,10 +145,10 @@ h2 a {
 		margin-left:-170px;
 	}
 }
-@media (max-width: 767px)
+@media (max-width: 768px)
 {
 	p {
-		margin-left:-116px;
+		margin-left:-100px;
 	}
 	.diamond-grid {
 		width: 100%;
@@ -174,10 +174,10 @@ h2 a {
 		margin-left:-100px;
 	}
 }
-@media (max-width: 430px)
+@media (max-width: 450px)
 {
 	p {
-		margin-left:-50px;
+		margin-left:-21px;
 	}
 }
 @media (max-width: 414px)
@@ -192,9 +192,9 @@ h2 a {
 		margin-left:-5px;
 	}
 }
-@media (max-width: 350px)
+@media (max-width: 375px)
 {
 	p {
-		margin-left:0px;
+		margin-left:45px;
 	}
 }
