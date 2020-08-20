@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #66FFCC;
+}
+
+p {
+	font-family: 'Fredoka One', cursive;
+	font-size: 3rem;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: -150px;
+	color: #10641b;
+}
+.diamond-grid {
+	width: 50%;
+	margin: 10px auto 0;
+}
+.item {
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	transition: 0.5s;
+}
+.item img {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%) scale(1.5);
+	width: 100%;
+}
+.wrap {
+	min-height: calc(100vh - 70px);
+}
+.footer{
+  height: 50px;
+}
+
+h2 {
+    position: absolute;
+    top: -38px;
+	font-size: 20px;
+	font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    background-color: #66FFCC;
+    padding: 5px 15px;
+	color: #10641b;
+	margin-left: 100px;
+}
+h2 a {
+	text-decoration: none;
+	color: #10641b;
+}
+.page {
+	padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    border-top: 1px solid #10641b;
+}
+
+@media (max-width: 1257px)
+{
+	p {
+		margin-left: -222px;
+	}
+	.diamond-grid {
+		width: 70%;
+		margin: 10px auto 0;
+	}
+	.item {
+		width: 100px;
+		height: 100px;
+		background: #fff;
+		transition: 0.5s;
+	}
+	.item img {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%) scale(1.5);
+		width: 100%;
+	}
+}
+@media (max-width: 1095px)
+{
+	p {
+		margin-left: -150px;
+	}
+}
+@media (max-width: 1074px)
+{
+	p {
+		margin-left: -100px;
+	}
+}
+@media (max-width: 1020px)
+{
+	p {
+		margin-left: -50px;
+	}
+}
+@media (max-width: 942px)
+{
+	p {
+		margin-left:-200px;
+	}
+}
+@media (max-width: 767px)
+{
+	.diamond-grid {
+		width: 100%;
+		margin: auto 0;
+	}
+	p {
+		margin-left:-150px;
+	}
+}
+@media (max-width: 690px)
+{
+	p {
+		margin-left:-50px;
+	}
+}
+@media (max-width: 630px)
+{
+	p {
+		font-size: 2rem;
+		margin-left:-150px;
+	}
+}
+@media (max-width: 550px)
+{
+	p {
+		margin-left:-100px;
+	}
+}
+@media (max-width: 430px)
+{
+	p {
+		margin-left:-50px;
+	}
+}
+@media (max-width: 400px)
+{
+	p {
+		margin-left:-5px;
+	}
+}
+@media (max-width: 350px)
+{
+	p {
+		margin-left:0px;
+	}
+}
