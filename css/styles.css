@@ -12,7 +12,6 @@ p {
 	font-weight: lighter;
 	text-align: center;
 	margin-top: 30px;
-	margin-left: -150px;
 	color: #10641b;
 }
 .diamond-grid {
@@ -61,6 +60,36 @@ h2 a {
     border-top: 1px solid #10641b;
 }
 
+@media (max-width: 1754px)
+{
+	p {
+		margin-left: -235px;
+	}
+}
+@media (max-width: 1640px)
+{
+	p {
+		margin-left: -168px;
+	}
+}
+@media (max-width: 1581px)
+{
+	p {
+		margin-left: -172px;
+	}
+}
+@media (max-width: 1401px)
+{
+	p {
+		margin-left: -54px;
+	}
+}
+@media (max-width: 1392px)
+{
+	p {
+		margin-left: -53px;
+	}
+}
 @media (max-width: 1257px)
 {
 	p {
@@ -84,6 +113,13 @@ h2 a {
 		width: 100%;
 	}
 }
+
+@media (max-width: 1252px)
+{
+	p {
+		margin-left: -225px;
+	}
+}
 @media (max-width: 1095px)
 {
 	p {
@@ -102,12 +138,7 @@ h2 a {
 		margin-left: -50px;
 	}
 }
-@media (max-width: 942px)
-{
-	p {
-		margin-left:-200px;
-	}
-}
+
 @media (max-width: 900px)
 {
 	p {
@@ -116,12 +147,12 @@ h2 a {
 }
 @media (max-width: 767px)
 {
+	p {
+		margin-left:-116px;
+	}
 	.diamond-grid {
 		width: 100%;
 		margin: auto 0;
-	}
-	p {
-		margin-left:-150px;
 	}
 }
 @media (max-width: 690px)
