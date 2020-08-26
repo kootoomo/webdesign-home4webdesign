@@ -13,6 +13,7 @@ p {
 	text-align: center;
 	margin-top: 30px;
 	color: #10641b;
+	margin-left: -100px;
 }
 .diamond-grid {
 	width: 50%;
@@ -60,41 +61,8 @@ h2 a {
     border-top: 1px solid #10641b;
 }
 
-@media (max-width: 1754px)
-{
-	p {
-		margin-left: -235px;
-	}
-}
-@media (max-width: 1640px)
-{
-	p {
-		margin-left: -168px;
-	}
-}
-@media (max-width: 1581px)
-{
-	p {
-		margin-left: -172px;
-	}
-}
-@media (max-width: 1401px)
-{
-	p {
-		margin-left: -54px;
-	}
-}
-@media (max-width: 1392px)
-{
-	p {
-		margin-left: -53px;
-	}
-}
 @media (max-width: 1257px)
 {
-	p {
-		margin-left: -222px;
-	}
 	.diamond-grid {
 		width: 70%;
 		margin: 10px auto 0;
@@ -118,6 +86,12 @@ h2 a {
 {
 	p {
 		margin-left: -225px;
+	}
+}
+@media (max-width: 1200px)
+{
+	p {
+		margin-left: -170px;
 	}
 }
 @media (max-width: 1095px)
