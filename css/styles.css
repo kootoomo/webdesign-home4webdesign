@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #66FFCC;
+	background: #204409;
 }
 
 p {
@@ -36,7 +36,7 @@ p {
 	min-height: calc(100vh - 70px);
 }
 .footer{
-  height: 50px;
+  height: 1px;
 }
 
 h2 {
@@ -45,18 +45,18 @@ h2 {
 	font-size: 20px;
 	font-family: 'Fredoka One', cursive;
     font-weight: lighter;
-    background-color: #66FFCC;
+    background-color: #204409;
     padding: 5px 15px;
 	color: #10641b;
-	margin-left: 100px;
+	margin-left: 640px;
 }
 h2 a {
 	text-decoration: none;
 	color: #10641b;
 }
 .page {
-	padding-top: 40px;
-    padding-bottom: 40px;
+	padding-top: 1px;
+    padding-bottom: 1px;
     position: relative;
     border-top: 1px solid #10641b;
 }
@@ -80,12 +80,18 @@ h2 a {
 		transform: translateY(-50%) scale(1.5);
 		width: 100%;
 	}
+	h2 {
+		margin-left: 470px;
+	}
 }
 
 @media (max-width: 1252px)
 {
 	p {
 		margin-left: -225px;
+	}
+	h2 {
+		margin-left: 450px;
 	}
 }
 @media (max-width: 1200px)
@@ -99,7 +105,7 @@ h2 a {
 	p {
 		margin-left: -150px;
 	}
-}
+	
 @media (max-width: 1074px)
 {
 	p {
@@ -112,7 +118,12 @@ h2 a {
 		margin-left: -81px;
 	}
 }
-
+@media (max-width: 940px)
+{
+	h2 {
+		margin-left: 310px;
+	}
+}
 @media (max-width: 900px)
 {
 	p {
@@ -128,11 +139,20 @@ h2 a {
 		width: 100%;
 		margin: auto 0;
 	}
+	h2 {
+		margin-left: 270px;
+	}
 }
 @media (max-width: 690px)
 {
 	p {
 		margin-left:-50px;
+	}
+}
+@media (max-width: 650px)
+{
+	h2 {
+		margin-left: 160px;
 	}
 }
 @media (max-width: 630px)
