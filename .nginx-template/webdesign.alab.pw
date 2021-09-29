@@ -1,0 +1,91 @@
+upstream webdesign-webhooks {
+        server unix:///opt/webapps/webhooks/uwsgi.sock;
+}
+
+server {
+
+        index index.html index.htm index.nginx-debian.html home.html;
+
+        server_name webdesign.alab.pw;
+
+	server_tokens off;
+
+	add_header Strict-Transport-Security "max-age=63072000; includeSubdomains; preload";
+	add_header X-Frame-Options SAMEORIGIN;
+	add_header Referrer-Policy same-origin;
+	add_header X-Content-Type-Options nosniff;
+	add_header X-XSS-Protection "1; mode=block";
+	add_header Feature-Policy "sync-xhr 'self'";
+	add_header Content-Security-Policy "frame-ancestors 'self'; default-src 'self'; img-src 'self' www.gravatar.com; script-src 'self' 'unsafe-inline' code.jquery.com kit.fontawesome.com; style-src 'self' 'unsafe-inline' kit-free.fontawesome.com fonts.googleapis.com cdnjs.cloudflare.com; font-src 'self' 'unsafe-inline' fonts.googleapis.com fonts.gstatic.com ka-f.fontawesome.com; connect-src 'self' ka-f.fontawesome.com";
+
+	root /opt/webapps/webdesign/home4webdesign;
+
+#        location / {
+#		try_files $uri $uri/ =404;
+#        }
+
+	location /blue-cat-place {
+		root /opt/webapps/webdesign;
+		try_files $uri $uri/ =404;
+	}
+	
+	location /cooking-courses {
+                root /opt/webapps/webdesign;
+                try_files $uri $uri/ =404;
+	}
+
+        location /gallery-responsive {
+                root /opt/webapps/webdesign;
+                try_files $uri $uri/ =404;
+        }
+
+        location /elekoot-gallery {
+                root /opt/webapps/webdesign;
+                try_files $uri $uri/ =404;
+        }
+
+	location /maman-agency {
+                root /opt/webapps/webdesign;
+                try_files $uri $uri/ =404;
+        }
+
+	location /our-team {
+                root /opt/webapps/webdesign;
+                try_files $uri $uri/ =404;
+        }
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+
+	location ~ /\.g {
+		deny all;
+	}
+
+        location /webhooks {
+                uwsgi_pass  webdesign-webhooks;
+                include /opt/webapps/webhooks/uwsgi_params;
+        }
+
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/webdesign.alab.pw/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/webdesign.alab.pw/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+
+server {
+    if ($host = webdesign.alab.pw) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+
+        server_name webdesign.alab.pw;
+    listen 80;
+    return 404; # managed by Certbot
+
+
+}
