@@ -15,6 +15,18 @@ p {
 	color: #10641b;
 	margin-left: -50px;
 }
+p a {
+	text-decoration: none;
+	color: #148f55;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 1.8rem;
+}
+span a{
+	font-size: 3rem;
+	text-decoration: none;
+	color: #10641b;
+}
 .diamond-grid {
 	width: 50%;
 	margin: 10px auto 0;
