@@ -26,6 +26,7 @@ span a{
 	font-size: 3rem;
 	text-decoration: none;
 	color: #10641b;
+	width: 40px;
 }
 .diamond-grid {
 	width: 50%;
@@ -133,6 +134,13 @@ h2 a {
 		margin-left: -81px;
 	}
 }
+
+@media (max-width: 942px)
+{
+	.footer{
+		margin-top: 150px;
+	}
+}
 @media (max-width: 940px)
 {
 	h2 {
@@ -205,6 +213,7 @@ h2 a {
 {
 	p {
 		margin-left:-5px;
+		font-size: 1.2rem
 	}
 }
 @media (max-width: 380px)
