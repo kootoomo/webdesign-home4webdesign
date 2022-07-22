@@ -29,7 +29,7 @@ span a{
 	width: 40px;
 }
 .diamond-grid {
-	width: 50%;
+	width: 70%;
 	margin: 10px auto 0;
 	
 }
@@ -123,6 +123,10 @@ button span {
 	h2 {
 		margin-left: 470px;
 	}
+	.footer {
+		margin-top: 150px;
+
+	}
 }
 
 @media (max-width: 1252px)
@@ -145,7 +149,7 @@ button span {
 	p {
 		margin-left: -150px;
 	}
-	
+}
 @media (max-width: 1074px)
 {
 	p {
@@ -156,13 +160,6 @@ button span {
 {
 	p {
 		margin-left: -81px;
-	}
-}
-
-@media (max-width: 942px)
-{
-	.footer{
-		margin-top: 150px;
 	}
 }
 @media (max-width: 940px)
