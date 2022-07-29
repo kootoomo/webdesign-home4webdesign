@@ -125,7 +125,6 @@ button span {
 	}
 	.footer {
 		margin-top: 150px;
-
 	}
 }
 
@@ -191,6 +190,12 @@ button span {
 {
 	p {
 		margin-left:-50px;
+	}
+}
+@media (max-width: 659px)
+{
+	.footer {
+		margin-top: 50px;
 	}
 }
 @media (max-width: 650px)
