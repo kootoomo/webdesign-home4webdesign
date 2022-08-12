@@ -51,7 +51,7 @@ span a{
 }
 .footer{
 	height: 1px;
-  	margin-top: 50px;
+  	margin-top: 150px;
 	margin-bottom: 50px;
 }
 
@@ -123,9 +123,6 @@ button span {
 	h2 {
 		margin-left: 470px;
 	}
-	.footer {
-		margin-top: 150px;
-	}
 }
 
 @media (max-width: 1252px)
@@ -190,12 +187,6 @@ button span {
 {
 	p {
 		margin-left:-50px;
-	}
-}
-@media (max-width: 659px)
-{
-	.footer {
-		margin-top: 50px;
 	}
 }
 @media (max-width: 650px)
