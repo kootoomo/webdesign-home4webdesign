@@ -127,35 +127,8 @@ button span {
 
 @media (max-width: 1252px)
 {
-	p {
-		margin-left: -225px;
-	}
 	h2 {
 		margin-left: 450px;
-	}
-}
-@media (max-width: 1200px)
-{
-	p {
-		margin-left: -170px;
-	}
-}
-@media (max-width: 1095px)
-{
-	p {
-		margin-left: -150px;
-	}
-}
-@media (max-width: 1074px)
-{
-	p {
-		margin-left: -100px;
-	}
-}
-@media (max-width: 1024px)
-{
-	p {
-		margin-left: -81px;
 	}
 }
 @media (max-width: 940px)
@@ -164,70 +137,39 @@ button span {
 		margin-left: 310px;
 	}
 }
-@media (max-width: 900px)
-{
-	p {
-		margin-left:-170px;
-	}
-}
+
 @media (max-width: 768px)
 {
-	p {
-		margin-left:-100px;
-	}
 	.diamond-grid {
-		width: 100%;
+		width: 70%;
 		margin: auto 0;
 	}
 	h2 {
 		margin-left: 270px;
 	}
 }
-@media (max-width: 690px)
+@media (max-width: 600px)
 {
-	p {
-		margin-left:-50px;
+	header {
+		margin: 0 auto;
 	}
-}
-@media (max-width: 650px)
-{
+	header p{
+		font-size: 25px;
+	}
+	header a{
+		font-size: 25px;
+	}
 	h2 {
-		margin-left: 160px;
+		margin-left: 170px;
 	}
 }
-@media (max-width: 630px)
-{
-	p {
-		font-size: 2rem;
-		margin-left:-150px;
-	}
 
-}
-@media (max-width: 460px)
+@media (max-width: 375px)
 {
-	p {
-		margin-left:-5px;
-		font-size: 2.1rem
+	header {
+		margin-left: 80px;
 	}
-}
-@media (max-width: 380px)
-{
-	p {
-		font-size: 2rem
-	}
-}
-@media (max-width: 360px)
-{
-	p {
-		font-size: 1.8rem
-	}
-}
-@media (max-width: 280px)
-{
-	p {
-		font-size: 1.2rem
-	}
-	p a{
-	font-size: 1.2rem;
+	h2 {
+		margin-left: 120px;
 	}
 }

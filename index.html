@@ -20,8 +20,10 @@
 <body>
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i><br><span class="top">UP!</span></button>
 	<div class="wrap">
-		<div><p><span><a href="https://alab.pw/"><img src="images/arrow-40-20.png" alt="alab home"></a></span> Web design portfolio</p></div>
-		<div><p><a href="https://github.com/kootoomo"> github.com/kootoomo</a></p></div>
+		<header>
+			<div><p><span><a href="https://alab.pw/"><img src="images/arrow-40-20.png" alt="alab home"></a></span> Web design portfolio</p></div>
+			<div><p><a href="https://github.com/kootoomo"> github.com/kootoomo</a></p></div>
+		</header>
 		<div class="diamond-grid">
 			<div class="item"><a href="https://webdesign.alab.pw/monsters-rolodex-build" target="_blank"><img src="images/bg-30.png" alt="monsters-rolodex"></a></div>
 			<div class="item"><a href="https://webdesign.alab.pw/okna" target="_blank"><img src="images/bg-19.png" alt="okna"></a></div>
@@ -60,7 +62,15 @@
 	<div class="page">
 		<h2><a href="https://alab.pw/">Alab.pw</a></h2>
 	</div>
+	<!-- 
 	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	-->
+	<script
+	  src="https://code.jquery.com/jquery-3.6.4.js"
+	  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+	  crossorigin="anonymous">
+	</script>
+  
 	<script src="js/jquery.diamonds.js"></script>
 	<script type="text/javascript">
 		$(".diamond-grid").diamonds({
